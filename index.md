@@ -28,5 +28,3 @@ instalar. Puedes instalar paquetes usando pip fácilmente.
 ## Índice
 
 1. [Esfera simple](https://henryxz.github.io/raytracing-para-todos/part-1)
-
-
