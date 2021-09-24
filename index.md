@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 # Raytracing para todos
@@ -10,6 +10,20 @@ pueda aprender algunos de los conceptos principales de Raytracing.
 
 También he decidido hacerlo en Español, ya que no he encontrado muchos 
 tutoriales en esta lengua.
+
+## Índice
+
+1. [Esfera simple](part-1)
+
+## Repositorio
+
+El código fuente lo puedes encontrar en GitHub
+[aquí](https://github.com/sombra-studio/raytracing-para-todos).
+
+Para cada parte del tutorial puedes ir a la carpeta en el repositorio para ver los
+archivos usados en esa parte. Asegurate de instalar **numpy** y **pillow**.
+
+Si quieres comentar algo, por favor hazlo directamente en el repositorio.
 
 ## Conocimientos previos
 
@@ -28,7 +42,3 @@ mega veloces. Además desarrollar en Python es mucho más rápido, porque no
 requiere compilar, es un lenguaje muy simple y no tan verboso, no tienes que 
 lidear con punteros ni complejas referencias o dependencias que tengas que 
 instalar. Puedes instalar paquetes usando pip fácilmente.
-
-## Índice
-
-1. [Esfera simple](part-1)

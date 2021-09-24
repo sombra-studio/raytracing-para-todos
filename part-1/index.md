@@ -2,6 +2,9 @@
 layout: default
 title: Raytracing para todos - Parte 1
 ---
+
+[volver](..)
+
 # Parte 1
 
 El objetivo de esta parte es poder generar nuestra primera imagen que será una
@@ -48,6 +51,8 @@ podemos definir **pc** que es el punto justo al centro de la ventana y **p00**
 que es el punto en la esquina inferior izquierda. Estos nos serviran 
 posteriormente.
 
+![imagen de projeccion](imgs/projection.png)
+
 ```python
 import numpy as np
 import utils
@@ -67,7 +72,7 @@ class Camera:
 ```
 
 Ahora el algoritmo de Raycasting usado en Raytracing consiste en disparar rayos
-desde el lente de nuestra cámara a por lo menos cada pixel que compone nuestra
+desde el lente de nuestra cámara a, por lo menos, cada pixel que compone nuestra
 pantalla. La pantalla y la ventana, son dos cosas distintas. Nuestra ventana 
 tiene dimensiones y posición dentro de nuestro mundo simulado, pero la pantalla
 es el espacio 2D donde vemos las imágenes que renderizamos. Entonces nuestra 
@@ -104,8 +109,6 @@ del punto en la ventana. Luego el punto **pp** se define como la suma entre
 el punto **p00**, **xp** projectado en el eje **n0** (de las coordenadas de 
 cámara)
 y **yp** projectado en el eje **n1**.
-
-![imagen de projeccion](imgs/projection.png)
 
 ```python
 RGB_CHANNELS = 3
@@ -332,3 +335,5 @@ if __name__ == '__main__':
 Lo que produce una imagen final como esta 🙂:
 
 ![output image](img.png)
+
+[volver](..)

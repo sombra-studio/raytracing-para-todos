@@ -1,0 +1,1 @@
+var codes = document.getElementsByClassName('highlight');

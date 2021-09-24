@@ -6,3 +6,19 @@
 img {
   max-width: 100%;
 }
+
+p {
+  margin-top: 5%;
+}
+
+@media (min-width: 768px) {
+  img {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
