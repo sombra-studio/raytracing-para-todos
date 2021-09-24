@@ -1,3 +1,7 @@
+---
+layout: default
+title: Raytracing para todos - Parte 1
+---
 # Parte 1
 
 El objetivo de esta parte es poder generar nuestra primera imagen que será una

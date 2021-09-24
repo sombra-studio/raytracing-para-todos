@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Raytracing para todos
 
 Bienvenido al tutorial Raytracing para todos. He hecho estas guías con el 
@@ -27,4 +31,4 @@ instalar. Puedes instalar paquetes usando pip fácilmente.
 
 ## Índice
 
-1. [Esfera simple](https://henryxz.github.io/raytracing-para-todos/part-1)
+1. [Esfera simple](part-1)
