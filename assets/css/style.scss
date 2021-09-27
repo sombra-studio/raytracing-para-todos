@@ -9,6 +9,7 @@ img {
 
 p {
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 @media (min-width: 768px) {
@@ -18,7 +19,7 @@ p {
 }
 
 @media (min-width: 992px) {
-  html {
+  body {
     font-size: 1.1rem;
   }
 }

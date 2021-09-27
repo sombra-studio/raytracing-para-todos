@@ -8,7 +8,7 @@ title: Raytracing para todos - Parte 1
 # Parte 1
 
 El objetivo de esta parte es poder generar nuestra primera imagen que será una
-esfera de color azul con fondo negro.
+esfera de color morado con fondo negro.
 
 Para hacer esto vamos a ver las siguientes cosas:
 
@@ -297,16 +297,17 @@ from sphere import Sphere
 
 
 OUTPUT_FILENAME = "img.png"
+MAX_COLOR_VALUE = 255
 
 
 def main():
     # Create sphere
     sphere_pos = np.array([0, 0, 1.5])
     sphere_rad = 0.4
-    color_blue = np.array([0, 0, 1])
-    sphere = Sphere(sphere_pos, sphere_rad, color_blue)
+    color_purple = np.array([75 / MAX_COLOR_VALUE, 0, 130 / MAX_COLOR_VALUE])
+    sphere = Sphere(sphere_pos, sphere_rad, color_purple)
     # Create light
-    light_pos = np.array([0, 2, 0])
+    light_pos = np.array([0, 1.5, 0])
     light = PointLight(light_pos)
     # Create camera
     camera_pos = np.array([0, 0, 0])
