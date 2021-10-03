@@ -7,6 +7,12 @@ pueda aprender algunos de los conceptos principales de Raytracing.
 También he decidido hacerlo en Español, ya que no he encontrado muchos 
 tutoriales en esta lengua.
 
+El link para el tutorial es [https://sombra.studio/raytracing-para-todos](https://sombra.studio/raytracing-para-todos)
+
+Si ya no te puedes aguantar hasta la siguiente parte del tutorial, puedes mirar
+mi repositorio [sombra](https://github.com/HenrYxZ/sombra) donde ya tengo un
+Raytracer en Python (que tiene algunos errores).
+
 ## Conocimientos previos
 
 Se espera que para entender este tutorial sepas programar en Python e 
@@ -24,9 +30,5 @@ mega veloces. Además desarrollar en Python es mucho más rápido, porque no
 requiere compilar, es un lenguaje muy simple y no tan verboso, no tienes que 
 lidear con punteros ni complejas referencias o dependencias que tengas que 
 instalar. Puedes instalar paquetes usando pip fácilmente.
-
-## Índice
-
-1. [Esfera simple](part-1)
 
 
