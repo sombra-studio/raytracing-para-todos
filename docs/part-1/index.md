@@ -295,7 +295,6 @@ from light import PointLight
 from render import render
 from sphere import Sphere
 
-
 OUTPUT_FILENAME = "img.png"
 MAX_COLOR_VALUE = 255
 
@@ -335,6 +334,6 @@ if __name__ == '__main__':
 
 Lo que produce una imagen final como esta 🙂:
 
-![output image](img.png)
+![output image](imgs/img.png)
 
 [volver](..)
