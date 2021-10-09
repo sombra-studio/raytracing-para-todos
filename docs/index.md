@@ -14,6 +14,7 @@ tutoriales en esta lengua.
 ## Índice
 
 1. [Esfera simple](part-1)
+2. [Plano infinito](part-2)
 
 ## Repositorio
 
