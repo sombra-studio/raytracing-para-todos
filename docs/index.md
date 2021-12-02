@@ -13,8 +13,23 @@ tutoriales en esta lengua.
 
 ## Índice
 
+Nota: los temas que no tienen link aún no están listos.
+
 1. [Esfera simple](part-1)
 2. [Plano infinito](part-2)
+3. Sombras
+4. Luces
+5. Shaders
+6. Texturas y materiales
+7. Normal maps
+8. Reflexión y refracción
+9. Anti-aliasing
+10. Animación
+11. Depth of Field
+12. Multi-Threading
+13. PBR-BRDF-Multi Spectral
+14. Mip-mapping
+15. Backwards Raytracing (Caustics)
 
 ## Repositorio
 
@@ -22,7 +37,7 @@ El código fuente lo puedes encontrar en GitHub
 [aquí](https://github.com/sombra-studio/raytracing-para-todos).
 
 Para cada parte del tutorial puedes ir a la carpeta en el repositorio para ver los
-archivos usados en esa parte. Asegurate de instalar **numpy** y **pillow**.
+archivos usados en esa parte. Asegúrate de instalar **numpy** y **pillow**.
 
 Si quieres comentar algo, por favor hazlo directamente en el repositorio.
 
