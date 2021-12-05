@@ -42,7 +42,7 @@ def main():
     sx = sy * aspect_ratio
     camera = Camera(camera_pos, v_up, v_view, d, sx, sy)
     # Change this for lower or higher resolution
-    pixel_scale = 15
+    pixel_scale = 40
     width = width_ratio * pixel_scale
     height = height_ratio * pixel_scale
     img_arr = render(scene, light, camera, height, width)

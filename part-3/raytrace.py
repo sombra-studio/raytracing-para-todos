@@ -7,6 +7,7 @@ from ray import Ray
 
 COLOR_CHANNELS = 3
 SHADOW_COLOR = np.zeros(COLOR_CHANNELS)
+AMBIENT_LIGHT = np.ones(COLOR_CHANNELS) * 0.16
 
 
 def get_min_intersection(ray, objects):
@@ -59,7 +60,12 @@ def raytrace(ray, scene, light):
         occlusion = calculate_occlusion(
             shadow_ray, hit_obj, light, scene.objects
         )
-        color = diffuse_coef * hit_obj.color if not occlusion else SHADOW_COLOR
+        if not occlusion:
+            diffuse_color = diffuse_coef * hit_obj.color
+        else:
+            diffuse_color = SHADOW_COLOR
+        ambient_color = AMBIENT_LIGHT * hit_obj.color
+        color =  np.clip(diffuse_color + ambient_color, 0, 1)
         return color
     else:
         return np.zeros(COLOR_CHANNELS)

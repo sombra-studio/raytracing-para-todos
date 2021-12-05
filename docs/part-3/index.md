@@ -16,7 +16,7 @@ parte de oscuridad. La oscuridad se debe a la ausencia de luz, y esta se
 produce cuando hay un objeto tapando el camino entre la superficie y la 
 fuente de luz. La siguiente imagen puede ayudar a ilustrar este concepto:
 
-[oclusion]
+![occlusion](imgs/occlusion.jpg)
 
 Lo que debemos hacer entonces para saber si existe un objeto ocluyendo la 
 superficie, es:
@@ -28,7 +28,11 @@ superficie, es:
    y la fuente de luz, entonces el punto tiene sombra. De lo contrario, el 
    objeto no está ocluyendo la luz.
 
-[intersección sin oclusion]
+Como generamos un nuevo rayo por punto de intersección, el programa se hará 
+más lento ya que computamos el doble, además también hay que iterar con el 
+resto de objetos para encontrar intersección (el cual generará sombra).
+
+![no occlusion](imgs/no_occlusion.jpg)
 
 Este es el código que necesitarías cambiar en la función *raytrace*:
 
@@ -108,5 +112,40 @@ def distance(p1, p2):
     dist = np.linalg.norm(p1 - p2)
     return dist
 ```
+
+Al correr esto obtendras esta imagen:
+
+![render with shadows](imgs/shadow.png)
+
+La imagen se acerca algo más a la realidad pero de algún modo la sombra no 
+se ve realista. Esto es porque es completamente negra, lo que genera un 
+contraste demasiado fuerte. En la realidad, parte de la luz rebota en las 
+superficies generando iluminación indirecta. Hasta ahora nosotros solo hemos 
+tomado en cuenta la iluminación proveniente directamente de la fuente de luz.
+Un hack muy simple que se usa normalmente en Gráficas por Computador para 
+simular la luz indirecta puede ser añadir una componente de luz ambiente. 
+Añadamos esto en nuestra función *raytrace*:
+
+```python
+# At the beginning define ambient light
+AMBIENT_LIGHT = np.ones(COLOR_CHANNELS) * 0.12
+
+# ...
+# In the raytrace function
+shadow_ray = Ray(ph, l)
+occlusion = calculate_occlusion(
+   shadow_ray, hit_obj, light, scene.objects
+)
+if not occlusion:
+   diffuse_color = diffuse_coef * hit_obj.color
+else:
+   diffuse_color = SHADOW_COLOR
+ambient_color = AMBIENT_LIGHT * hit_obj.color
+color =  np.clip(diffuse_color + ambient_color, 0, 1)
+```
+
+Y finalmente tendrás una imagen así ✨:
+
+![shadows final](imgs/final.png)
 
 [volver](..)
