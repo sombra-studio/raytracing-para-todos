@@ -17,7 +17,7 @@ Nota: los temas que no tienen link aún no están listos.
 
 1. [Esfera simple](part-1)
 2. [Plano infinito](part-2)
-3. Sombras
+3. [Sombras](part-3)
 4. Luces
 5. Shaders
 6. Texturas y materiales
