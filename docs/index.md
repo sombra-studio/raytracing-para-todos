@@ -63,3 +63,30 @@ instalar. Puedes instalar paquetes usando pip fácilmente.
 PD: Si ya no te puedes aguantar hasta la siguiente parte del tutorial, puedes
 mirar mi repositorio [sombra](https://github.com/HenrYxZ/sombra) donde ya tengo
 un Raytracer en Python (que tiene algunos errores).
+
+## Referencias
+
+Si quieres profundizar más, aquí te dejo algunas fuentes que podrían ayudarte a
+aprender más de Gráficas por Computador. Lamentablemente, son todas en inglés 
+😕.
+
+- Raytracing Essentials por Nvidia
+[YouTube](https://www.youtube.com/watch?v=gBPNO6ruevk&list=PL5B692fm6--sgm8Uiava0IIvUojjFOCSR)
+- Intro to Raytracing por Rajesh Sharma (SIGGRAPH)
+[YouTube](https://www.youtube.com/watch?v=3xMeKal2-Ws)
+- Ray Tracing in One Weekend por Peter Shirley
+[_link_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+- The Ray Tracer Challenge por Jamis Buck
+[_link_](http://raytracerchallenge.com/)
+- Physically Based Rendering por Matt Phar, Wenzel Jakob y Greg Humphreys
+[_link_](https://www.pbrt.org/)
+- Real-Time Rendering por Tomas Akenine-Möller, Eric Haines y Naty Hoffman
+- Curso de Interactive Graphics por Cem Yuskel en la Universidad de Utah
+[YouTube](https://www.youtube.com/watch?v=UVCuWQV_-Es&list=PLplnkTzzqsZS3R5DjmCQsqupu43oS9CFN)
+- Tutorial de Shader Graph Basics por Ben Cloward
+[YouTube](https://www.youtube.com/watch?v=OX_6_bKpP9g&list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl)
+- Curso de Animation & CGI Motion por Eitan Grinspun en la Universidad de 
+  Columbia 
+[_link_](https://www.edx.org/course/animation-and-cgi-motion-2)
+- Cursos de Pixar en Khan Academy
+[_link_](https://www.khanacademy.org/computing/pixar)
