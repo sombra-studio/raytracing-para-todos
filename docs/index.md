@@ -81,6 +81,10 @@ aprender más de Gráficas por Computador. Lamentablemente, son todas en inglés
 [link](http://raytracerchallenge.com/)
 - Physically Based Rendering por Matt Phar, Wenzel Jakob y Greg Humphreys
 [link](https://www.pbrt.org/)
+- Curso de Rendering por Ravi Ramamoorthi
+[link](https://cseweb.ucsd.edu//~viscomp/classes/cse168/sp21/schedule.html)
+- Curso de Rendering por TU Wien
+[link](https://www.youtube.com/channel/UCS9CFdjdEcq_NhaSFb_P-yA)
 
 ### Gráficas en general
 - Real-Time Rendering por Tomas Akenine-Möller, Eric Haines y Naty Hoffman
