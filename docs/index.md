@@ -11,6 +11,10 @@ pueda aprender algunos de los conceptos principales de Raytracing.
 También he decidido hacerlo en Español, ya que no he encontrado muchos 
 tutoriales en esta lengua.
 
+![muestra](social-preview.png)
+
+Muestra de un render hecho en el tutorial
+
 ## Índice
 
 Nota: los temas que no tienen link aún no están listos.
