@@ -8,12 +8,11 @@ Bienvenido al tutorial Raytracing para todos. He hecho estas guías con el
 objetivo de que cualquiera que sepa Python y matemática vectorial simple 
 pueda aprender algunos de los conceptos principales de Raytracing.
 
+|![muestra](social-preview.png)|
+|Muestra de un render hecho en el tutorial|
+
 También he decidido hacerlo en Español, ya que no he encontrado muchos 
 tutoriales en esta lengua.
-
-![muestra](social-preview.png)
-
-Muestra de un render hecho en el tutorial
 
 ## Índice
 
