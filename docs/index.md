@@ -27,8 +27,8 @@ Nota: los temas que no tienen link aún no están listos.
 7. Normal maps
 8. Reflexión y refracción
 9. Anti-aliasing
-10. Animación
-11. Depth of Field
+10. Depth of Field
+11. Animación
 12. Multi-Threading
 13. PBR-BRDF-Multi Spectral
 14. Mip-mapping

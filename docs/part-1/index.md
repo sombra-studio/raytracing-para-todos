@@ -24,9 +24,9 @@ Para poder crear imágenes lo que hacemos es simular la realidad. Así que vamos
 necesitar algo que simule el funcionamiento de una cámara. Algunos de los datos
 importantes de una cámara en particular son su posición en el espacio y su 
 orientación. La posición es un punto en espacio tridimensional, y para la
-orientación generamos tres vectores perpendiculares entre sí (**n0**, **n1** 
-y **n2**) que definen un espacio de coordenadas donde el lente de la cámara es
-el origen.
+orientación generamos tres vectores unitarios y perpendiculares entre sí
+(**n0**, **n1** y **n2**) que definen un espacio de coordenadas donde el lente
+de la cámara es el origen.
 
 ![dibujo de la camara](imgs/camera_pos.png)
 
