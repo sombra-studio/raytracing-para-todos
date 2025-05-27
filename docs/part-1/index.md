@@ -20,6 +20,8 @@ Para hacer esto vamos a ver las siguientes cosas:
 6. Intersección con esfera
 7. Iluminación
 
+Update: puedes ver un contenido similar a este en esta [(presentacion en PyCon Chile 2022)](https://www.youtube.com/watch?v=SyfSvvyfP8Q)
+
 Para poder crear imágenes lo que hacemos es simular la realidad. Así que vamos a
 necesitar algo que simule el funcionamiento de una cámara. Algunos de los datos
 importantes de una cámara en particular son su posición en el espacio y su 
